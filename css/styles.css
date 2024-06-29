@@ -61,8 +61,8 @@ ul {
   letter-spacing: 4%;
   cursor: pointer;
   text-align: center;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: inherit;
+  line-height: inherit;
 }
 .headline-button:hover,
 .headline-button:focus {
