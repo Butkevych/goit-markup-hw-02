@@ -48,7 +48,7 @@ a {
 .headline-section {
   background-color: #2e2f42;
 }
-h1 {
+.headline-title {
   color: #ffffff;
   font-weight: 700;
   font-size: 56px;
@@ -70,7 +70,9 @@ h1 {
 .headline-button:focus {
   background-color: #404bbf;
 }
-h2 {
+.qualities-title,
+.team-title,
+.portfolio-title {
   color: #2e2f42;
   font-weight: 700;
   text-align: center;
@@ -79,7 +81,9 @@ h2 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-h3 {
+.qualities-name,
+.team-card-name,
+.portfolio-card-name {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
