@@ -3,6 +3,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   line-height: 1.5;
+  letter-spacing: 2%;
 }
 .logo {
   text-decoration: none;
@@ -42,5 +43,35 @@ ul {
   font-weight: 700;
   font-size: 56px;
   line-height: 1, 071;
+  text-align: center;
+}
+.headline-button {
+  background-color: #4d5ae5;
+  padding: 16px, 32px, 16px, 32px;
+  color: #ffffff;
+  font-weight: 500;
+  letter-spacing: 4%;
+  box-shadow: 0px 4px 4px 0px #000000;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+}
+h2 {
+  color: #2e2f42;
+  font-weight: 700;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.111;
+}
+h3 {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.team-section {
+  background-color: #f4f4fd;
+}
+.team-card {
+  background-color: #ffffff;
   text-align: center;
 }
