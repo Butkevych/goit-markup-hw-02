@@ -35,6 +35,8 @@ a {
 }
 .address-link {
   color: inherit;
+}
+.address-header {
   font-style: normal;
 }
 .nav-link:hover,
@@ -46,7 +48,7 @@ a {
 .headline-section {
   background-color: #2e2f42;
 }
-.headline-title {
+h1 {
   color: #ffffff;
   font-weight: 700;
   font-size: 56px;
@@ -73,12 +75,15 @@ h2 {
   text-align: center;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 h3 {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .team-section {
   background-color: #f4f4fd;
